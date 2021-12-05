@@ -1,1 +1,959 @@
 
+--------- beginning of main
+12-05 14:27:41.816  4479  4479 D NewPadTV: MainActivity--ifDeleteScanFile aBoolean=false
+12-05 14:27:41.817  4479  4479 D NewPadTV: DVBClient--setEventListener 
+12-05 14:27:41.819  4479  4479 D NewPadTV: MDMReceiver--MDMReceiver 
+12-05 14:27:41.819  4479  4479 D NewPadTV: MDMReceiver--registerBroadcast 
+12-05 14:27:41.822  4479  4479 D NewPadTV: MDMReceiver--MDMReceiver testUpdate=false openDebugMode=false
+12-05 14:27:41.823  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly Build.VERSION.SDK_INT=26
+12-05 14:27:41.823  4479  6634 D NewPadTV: MediaManager--threadStart 
+12-05 14:27:41.824  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly size=0
+12-05 14:27:41.824  4479  4479 D NewPadTV: MainActivity--onCreate mHasPermision=true
+12-05 14:27:41.826  4479  4479 D NewPadTV: Constant--initEpgInfo EPG_INFO_CHANNEL_LENGTH_OF_PER_MINUTE=11.108333333333377
+12-05 14:27:41.827  4479  4479 D NewPadTV: Constant--init DEVICE_SCREEN_HEIGHT=1080 DEVICE_SCREEN_WIDTH=1920
+12-05 14:27:41.834  4479  4479 D NewPadTV: MainActivity--initAssets strPath=/data/user/0/com.Pad.tvapp/files
+12-05 14:27:41.845  4479  4479 D NewPadTV: MainActivity--onResume 
+12-05 14:27:41.848  4479  4479 D NewPadTV: MainActivity--configSettings mCurrentDevicePid=0
+12-05 14:27:41.848  4479  4479 D NewPadTV: MainActivity--onResume hasUsbPermission=false
+12-05 14:27:41.848  4479  4479 D NewPadTV: MainActivity--doConnectedJobWhenResume newCreate=true
+12-05 14:27:41.855  4479  4479 D ViewRootImpl@b58c564[MainActivity]: setView = DecorView@48b3cd[MainActivity] TM=true MM=false
+12-05 14:27:41.866  4479  4479 D ViewRootImpl@b58c564[MainActivity]: dispatchAttachedToWindow
+12-05 14:27:41.885  4479  4479 V Surface : sf_framedrop debug : 0x4f4c, game : false, logging : 0
+12-05 14:27:41.885  4479  4479 D ViewRootImpl@b58c564[MainActivity]: Relayout returned: old=[0,0][0,0] new=[0,0][1920,1080] result=0x7 surface={valid=true 481212796928} changed=true
+12-05 14:27:41.891  4479  4601 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [1920x1080]-format:1
+12-05 14:27:41.891  4479  4601 D OpenGLRenderer: eglCreateWindowSurface = 0x702806b540
+12-05 14:27:41.892  4479  4479 D ViewRootImpl@b58c564[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1920, 1080) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 81 - 0, 0) or=2
+12-05 14:27:41.892  4479  4479 D ViewRootImpl@b58c564[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:27:41.893  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@34b3482 nm : com.Pad.tvapp ic=null
+12-05 14:27:41.893  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:27:41.991  4479  4479 D ViewRootImpl@b58c564[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1920, 1080) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+12-05 14:27:42.082  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:27:42.826  4479  6634 D NewPadTV: MediaFragment--getMediaFiles exists=false
+12-05 14:27:42.844  4479  4479 D NewPadTV: MainActivity--configSettings mCurrentDevicePid=0
+12-05 14:27:42.844  4479  4479 D NewPadTV: MainActivity--bindDataOrFunction progressModel=false
+12-05 14:27:42.845  4479  4479 D NewPadTV: SharePreferenceManager--getValue key=ads_content_appendix
+12-05 14:27:42.845  4479  4479 D NewPadTV: ViewShowChooser--judgeIfAdsContentExist b=false
+12-05 14:27:42.845  4479  4479 D NewPadTV: ViewShowChooser--showAds adPath=null
+12-05 14:27:43.976  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:27:43.977  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:27:46.384  4479  4551 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:27:46.384  4479  4551 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:27:47.860  4479  4479 D NewPadTV: MainActivity--stopMDM serviceWork=false
+12-05 14:27:47.877  4479  4479 D NewPadTV: MdmInternalService--onStartCommand 
+12-05 14:27:47.881  4479  4479 D NewPadTV: MdmInternalService--onStartCommand mModel=newNeutralPadTV mCustomID=GT111149
+12-05 14:27:47.882  4479  4479 D NewPadTV: MdmApi--setNetMode  mode=3
+12-05 14:27:47.882  4479  4479 D NewPadTV: MdmApi--setNetMode   Constant.BASE_URL=https://atms.geniatech.com/mdm/
+12-05 14:27:47.882  4479  4479 D NewPadTV: MdmInternalService--startMqtt 
+12-05 14:27:47.887  4479  4479 D NewPadTV: MdmManager--registerNetwork  RuntimeExec  201906031102
+12-05 14:27:47.888  4479  4479 D NewPadTV: MdmManager--registerNetwork
+12-05 14:27:47.891  4479  4479 D NewPadTV: MdmInternalService--onStart service
+12-05 14:27:47.893  4479  4479 D NewPadTV: NetworkChangeReceiver--NetworkChangeReceiver  onReceive  connected=true
+12-05 14:27:47.893  4479  4479 D NewPadTV: MdmManager--onNetConnected  DeviceMode=2
+12-05 14:27:47.894  4479  4479 D NewPadTV: Base64Utils--setEncryption  encodeWord= MTYzODY4OTI2Nzg5NA==
+12-05 14:27:47.894  4479  4479 I NewPadTV: HttpManager--getProductKey  customId=GT111149,model=newNeutralPadTV,encryptionTime=MTYzODY4OTI2Nzg5NA==
+12-05 14:27:47.906  4479  6661 D NewPadTV: mdmInterceptor--LoraInterceptor
+12-05 14:27:49.855  4479  4479 D NewPadTV: HttpManager--getProductKey--onNext  {"product_key":"b9580143d6ad61a9","user_id":"U205114901146894336","success":true,"custom_id":"C205114901146894336","product_id":"P206253072140206080","product_secret":"1dA8Dm7bKvMetuH6EaHF0QpxERJZhNPE"}
+12-05 14:27:49.855  4479  4479 D NewPadTV: MdmManager--getProductKey  success
+12-05 14:27:49.860  4479  4479 D NewPadTV: MqttConfig--getProductKey  productKey=null,productSecret=null
+12-05 14:27:49.861  4479  4479 D NewPadTV: Base64Utils--setEncryption  encodeWord= bnVsbCZudWxs
+12-05 14:27:49.861  4479  4479 D NewPadTV: MqttConfig--onNetConnected  mdmKey=null&null,encryptionMdmKey=bnVsbCZudWxs
+12-05 14:27:49.863  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID path=/storage/emulated/0/PdthdSerial
+12-05 14:27:49.866  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID serial=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:27:49.866  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:27:49.866  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:27:49.866  4479  4479 D NewPadTV: MqttConfig--onSuccess  customId=null
+12-05 14:27:49.866  4479  4479 D NewPadTV: MqttConfig--onSuccess  deviceId=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:27:49.867  4479  4479 D NewPadTV: GsonUtils--toJson
+12-05 14:27:49.868  4479  4479 D NewPadTV: MqttConfig--getOfflineMessage  offlineData={}
+12-05 14:27:49.868  4479  4479 D NewPadTV: MqttManager--connect  userName=bnVsbCZudWxs-device-00000000-29ff-3ef0-ffff-ffffa3dca01a,password=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:27:49.868  4479  4479 D NewPadTV: MqttManager--isConnected  mMqttAndroidClient != null
+12-05 14:27:49.869  4479  4479 D NewPadTV: MqttManager--isConnected  isConnected=false
+12-05 14:27:51.152  4479  6684 D AlarmPingSender: Unregister alarmreceiver to MqttService1638689269869
+12-05 14:27:51.868  4479  6686 D AlarmPingSender: Unregister alarmreceiver to MqttService1638689269869
+12-05 14:27:51.875  4479  4479 E NewPadTV: MqttManager--connect--onFailure  error=Not authorized to connect
+12-05 14:27:51.875  4479  4479 E NewPadTV: MdmManager--initMqtt  onFailure  error=Not authorized to connect
+12-05 14:27:55.351  4479  4479 D ViewRootImpl@b58c564[MainActivity]: ViewPostIme pointer 0
+12-05 14:27:55.429  4479  4479 D ViewRootImpl@b58c564[MainActivity]: ViewPostIme pointer 1
+12-05 14:27:55.430  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{6b263f5 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:27:55.430  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{6b263f5 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:27:55.430  4479  4479 D NewPadTV: ViewShowChooser--mainClick 
+12-05 14:27:55.431  4479  4479 D NewPadTV: ViewShowChooser--mainClick sv_play_screen showingMainInfo=false showingSettings=false
+12-05 14:27:55.431  4479  4479 D NewPadTV: ViewShowChooser--showMainInfos GestureDetector
+12-05 14:27:58.276  4479  4479 D ViewRootImpl@b58c564[MainActivity]: ViewPostIme pointer 0
+12-05 14:27:58.368  4479  4479 D ViewRootImpl@b58c564[MainActivity]: ViewPostIme pointer 1
+12-05 14:27:59.568  4479  4479 D ViewRootImpl@b58c564[MainActivity]: ViewPostIme pointer 0
+12-05 14:27:59.633  4479  4479 D ViewRootImpl@b58c564[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:00.433  4479  4479 D NewPadTV: ViewShowChooser--hideMainInfos GestureDetector 
+12-05 14:28:06.603  4479  4479 D ViewRootImpl@b58c564[MainActivity]: ViewPostIme key 0
+12-05 14:28:06.604  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@8e7658a
+12-05 14:28:06.604  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:06.604  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:06.604  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=null
+12-05 14:28:06.604  4479  4479 D NewPadTV: MainActivity--onKeyDown b=false
+12-05 14:28:06.643  4479  4479 D ViewRootImpl@b58c564[MainActivity]: ViewPostIme key 1
+12-05 14:28:06.660  4479  4479 D NewPadTV: MainActivity--onPause 
+12-05 14:28:06.753  4479  4479 D ViewRootImpl@b58c564[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+12-05 14:28:06.898  4479  4601 D OpenGLRenderer: eglDestroySurface = 0x702806b540
+12-05 14:28:06.908  4479  4479 D ViewRootImpl@b58c564[MainActivity]: Relayout returned: old=[0,0][1920,1080] new=[0,0][1920,1080] result=0x5 surface={valid=false 0} changed=true
+12-05 14:28:06.912  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:06.912  4479  4479 I chatty  : uid=10089(u0_a89) com.Pad.tvapp identical 3 lines
+12-05 14:28:06.912  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:06.912  4479  4479 D NewPadTV: TVControl--TVControlHandlerWrapper stopPlayDirectly hwDecoder=false
+12-05 14:28:06.912  4479  4479 I SDL_android: Java_com_geniatech_dvbcodec_ui_VideoGLSurfaceView_ChangeChannel >>In hwdecoder 1 0 0 0 128
+12-05 14:28:06.912  4479  4479 D NewPadTV: DVBClient--stopPlay 
+12-05 14:28:06.912  4479  4479 D NewPadTV: ViewShowChooser--surface hideSurfaceView viewBlackCurtainForSurface VISIBLE
+12-05 14:28:06.915  4479  4479 D NewPadTV: MainActivity--onStop 
+12-05 14:28:06.916  4479  4479 D NewPadTV: MainActivity--onDestroy 
+12-05 14:28:06.916  4479  4479 D NewPadTV: MainActivity--stopMDM serviceWork=true
+12-05 14:28:06.920  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:06.920  4479  4479 I chatty  : uid=10089(u0_a89) com.Pad.tvapp identical 3 lines
+12-05 14:28:06.920  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:06.920  4479  4479 D NewPadTV: TVControl--TVControlHandlerWrapper stopPlayDirectly hwDecoder=false
+12-05 14:28:06.920  4479  4479 I SDL_android: Java_com_geniatech_dvbcodec_ui_VideoGLSurfaceView_ChangeChannel >>In hwdecoder 1 0 0 0 128
+12-05 14:28:06.920  4479  4479 D NewPadTV: DVBClient--stopPlay 
+12-05 14:28:06.920  4479  4479 D NewPadTV: ViewShowChooser--surface hideSurfaceView viewBlackCurtainForSurface VISIBLE
+12-05 14:28:06.921  4479  4479 I PLAYER libTsplayer: : ReleaseSurface m_nativeWindow 0
+12-05 14:28:06.922  4479  4479 D NewPadTV: MDMReceiver--unRegisterBroadcast 
+12-05 14:28:06.922  4479  4479 D NewPadTV: DVBClient--close_device 
+12-05 14:28:06.922  4479  4479 D NewPadTV: DVBClient--disconnect 
+12-05 14:28:06.922  4479  6632 D NewPadTV: ThreadHandler--handleMessage EXIT_THREAD:26
+12-05 14:28:06.922  4479  6632 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread 
+12-05 14:28:06.939  4479  4479 D ViewRootImpl@b58c564[MainActivity]: dispatchDetachedFromWindow
+12-05 14:28:06.939  4479  4479 D InputEventReceiver: channel 'b92c997 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~ Disposing input event receiver.
+12-05 14:28:06.939  4479  4479 D InputEventReceiver: channel 'b92c997 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~NativeInputEventReceiver.
+12-05 14:28:06.944  4479  4479 E MdmInternalService: MdmInternalService--MdmInternalService--onDestroy
+12-05 14:28:06.944  4479  4479 D NewPadTV: MqttManager--onDestroy
+12-05 14:28:06.944  4479  4479 D NewPadTV: MqttManager--isConnected  mMqttAndroidClient != null
+12-05 14:28:06.945  4479  4479 D NewPadTV: MqttManager--isConnected  isConnected=false
+12-05 14:28:08.572  4479  4479 D NewPadTV: MainActivity--onCreate 
+12-05 14:28:08.575  4479  4479 D NewPadTV: MainActivity--logStart starTime=1638689288575 fileLength=12811
+12-05 14:28:08.627  4479  4484 I zygote64: Do partial code cache collection, code=121KB, data=74KB
+12-05 14:28:08.627  4479  4484 I zygote64: After code cache collection, code=121KB, data=74KB
+12-05 14:28:08.627  4479  4484 I zygote64: Increasing code cache capacity to 512KB
+--------- beginning of main
+12-05 14:28:08.627  4479  4484 I zygote64: Do partial code cache collection, code=121KB, data=74KB
+12-05 14:28:08.627  4479  4484 I zygote64: After code cache collection, code=121KB, data=74KB
+12-05 14:28:08.627  4479  4484 I zygote64: Increasing code cache capacity to 512KB
+12-05 14:28:08.718  4479  4479 D NewPadTV: MainActivity--ifDeleteScanFile aBoolean=false
+12-05 14:28:08.719  4479  4479 D NewPadTV: DVBClient--setEventListener 
+12-05 14:28:08.718  4479  4479 D NewPadTV: MainActivity--ifDeleteScanFile aBoolean=false
+12-05 14:28:08.719  4479  4479 D NewPadTV: DVBClient--setEventListener 
+12-05 14:28:08.723  4479  4479 D NewPadTV: MDMReceiver--MDMReceiver 
+12-05 14:28:08.723  4479  4479 D NewPadTV: MDMReceiver--MDMReceiver 
+12-05 14:28:08.723  4479  4479 D NewPadTV: MDMReceiver--registerBroadcast 
+12-05 14:28:08.723  4479  4479 D NewPadTV: MDMReceiver--registerBroadcast 
+12-05 14:28:08.725  4479  4479 D NewPadTV: MDMReceiver--MDMReceiver testUpdate=false openDebugMode=false
+12-05 14:28:08.725  4479  4479 D NewPadTV: MDMReceiver--MDMReceiver testUpdate=false openDebugMode=false
+12-05 14:28:08.725  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly Build.VERSION.SDK_INT=26
+12-05 14:28:08.725  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly Build.VERSION.SDK_INT=26
+12-05 14:28:08.725  4479  6712 D NewPadTV: MediaManager--threadStart 
+12-05 14:28:08.725  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly size=0
+12-05 14:28:08.725  4479  6712 D NewPadTV: MediaManager--threadStart 
+12-05 14:28:08.725  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly size=0
+12-05 14:28:08.726  4479  4479 D NewPadTV: MainActivity--onCreate mHasPermision=true
+12-05 14:28:08.726  4479  4479 D NewPadTV: MainActivity--onCreate mHasPermision=true
+12-05 14:28:08.728  4479  4479 D NewPadTV: Constant--initEpgInfo EPG_INFO_CHANNEL_LENGTH_OF_PER_MINUTE=11.108333333333377
+12-05 14:28:08.728  4479  4479 D NewPadTV: Constant--initEpgInfo EPG_INFO_CHANNEL_LENGTH_OF_PER_MINUTE=11.108333333333377
+12-05 14:28:08.728  4479  4479 D NewPadTV: Constant--init DEVICE_SCREEN_HEIGHT=1080 DEVICE_SCREEN_WIDTH=1920
+12-05 14:28:08.728  4479  4479 D NewPadTV: Constant--init DEVICE_SCREEN_HEIGHT=1080 DEVICE_SCREEN_WIDTH=1920
+12-05 14:28:08.730  4479  4479 D NewPadTV: MainActivity--initAssets strPath=/data/user/0/com.Pad.tvapp/files
+12-05 14:28:08.730  4479  4479 D NewPadTV: MainActivity--initAssets strPath=/data/user/0/com.Pad.tvapp/files
+12-05 14:28:08.737  4479  4479 D NewPadTV: MainActivity--onResume 
+12-05 14:28:08.740  4479  4479 D NewPadTV: MainActivity--configSettings mCurrentDevicePid=0
+12-05 14:28:08.740  4479  4479 D NewPadTV: MainActivity--onResume hasUsbPermission=false
+12-05 14:28:08.740  4479  4479 D NewPadTV: MainActivity--doConnectedJobWhenResume newCreate=true
+12-05 14:28:08.737  4479  4479 D NewPadTV: MainActivity--onResume 
+12-05 14:28:08.740  4479  4479 D NewPadTV: MainActivity--configSettings mCurrentDevicePid=0
+12-05 14:28:08.740  4479  4479 D NewPadTV: MainActivity--onResume hasUsbPermission=false
+12-05 14:28:08.740  4479  4479 D NewPadTV: MainActivity--doConnectedJobWhenResume newCreate=true
+12-05 14:28:08.750  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: setView = DecorView@5847624[MainActivity] TM=true MM=false
+12-05 14:28:08.750  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: setView = DecorView@5847624[MainActivity] TM=true MM=false
+12-05 14:28:08.753  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: dispatchAttachedToWindow
+12-05 14:28:08.753  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: dispatchAttachedToWindow
+12-05 14:28:08.767  4479  4479 V Surface : sf_framedrop debug : 0x4f4c, game : false, logging : 0
+12-05 14:28:08.767  4479  4479 V Surface : sf_framedrop debug : 0x4f4c, game : false, logging : 0
+12-05 14:28:08.767  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: Relayout returned: old=[0,0][0,0] new=[0,0][1920,1080] result=0x7 surface={valid=true 481230475264} changed=true
+12-05 14:28:08.767  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: Relayout returned: old=[0,0][0,0] new=[0,0][1920,1080] result=0x7 surface={valid=true 481230475264} changed=true
+12-05 14:28:08.773  4479  4601 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [1920x1080]-format:1
+12-05 14:28:08.773  4479  4601 D OpenGLRenderer: eglCreateWindowSurface = 0x70280c4840
+12-05 14:28:08.773  4479  4601 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [1920x1080]-format:1
+12-05 14:28:08.773  4479  4601 D OpenGLRenderer: eglCreateWindowSurface = 0x70280c4840
+12-05 14:28:08.775  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1920, 1080) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 81 - 0, 0) or=2
+12-05 14:28:08.775  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1920, 1080) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 81 - 0, 0) or=2
+12-05 14:28:08.775  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:28:08.775  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:28:08.775  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@93d758d nm : com.Pad.tvapp ic=null
+12-05 14:28:08.775  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:08.775  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@93d758d nm : com.Pad.tvapp ic=null
+12-05 14:28:08.775  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:08.820  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:08.820  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:08.851  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1920, 1080) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+12-05 14:28:08.851  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1920, 1080) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+12-05 14:28:09.727  4479  6712 D NewPadTV: MediaFragment--getMediaFiles exists=false
+12-05 14:28:09.727  4479  6712 D NewPadTV: MediaFragment--getMediaFiles exists=false
+12-05 14:28:09.735  4479  4479 D NewPadTV: MainActivity--configSettings mCurrentDevicePid=0
+12-05 14:28:09.735  4479  4479 D NewPadTV: MainActivity--bindDataOrFunction progressModel=false
+12-05 14:28:09.735  4479  4479 D NewPadTV: MainActivity--configSettings mCurrentDevicePid=0
+12-05 14:28:09.735  4479  4479 D NewPadTV: MainActivity--bindDataOrFunction progressModel=false
+12-05 14:28:09.737  4479  4479 D NewPadTV: SharePreferenceManager--getValue key=ads_content_appendix
+12-05 14:28:09.737  4479  4479 D NewPadTV: SharePreferenceManager--getValue key=ads_content_appendix
+12-05 14:28:09.737  4479  4479 D NewPadTV: ViewShowChooser--judgeIfAdsContentExist b=false
+12-05 14:28:09.737  4479  4479 D NewPadTV: ViewShowChooser--judgeIfAdsContentExist b=false
+12-05 14:28:09.737  4479  4479 D NewPadTV: ViewShowChooser--showAds adPath=null
+12-05 14:28:09.737  4479  4479 D NewPadTV: ViewShowChooser--showAds adPath=null
+12-05 14:28:10.868  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:10.868  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:10.869  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:10.869  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:13.177  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:13.177  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:13.402  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:13.402  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:13.404  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{4021f53 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:28:13.404  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{4021f53 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:28:13.404  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{4021f53 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:28:13.404  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{4021f53 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:28:13.404  4479  4479 D NewPadTV: ViewShowChooser--mainClick 
+12-05 14:28:13.404  4479  4479 D NewPadTV: ViewShowChooser--mainClick 
+12-05 14:28:13.404  4479  4479 D NewPadTV: ViewShowChooser--mainClick sv_play_screen showingMainInfo=false showingSettings=false
+12-05 14:28:13.404  4479  4479 D NewPadTV: ViewShowChooser--mainClick sv_play_screen showingMainInfo=false showingSettings=false
+12-05 14:28:13.404  4479  4479 D NewPadTV: ViewShowChooser--showMainInfos GestureDetector
+12-05 14:28:13.404  4479  4479 D NewPadTV: ViewShowChooser--showMainInfos GestureDetector
+12-05 14:28:13.770  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:13.770  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:13.893  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:13.893  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:13.894  4479  4479 D NewPadTV: MainActivity--onClick v=androidx.appcompat.widget.AppCompatTextView{7a4d090 VFED..C.. ...P.... 1594,956-1744,1003 #7f08015d app:id/tv_ads_jump}
+12-05 14:28:13.894  4479  4479 D NewPadTV: MainActivity--onClick v=androidx.appcompat.widget.AppCompatTextView{7a4d090 VFED..C.. ...P.... 1594,956-1744,1003 #7f08015d app:id/tv_ads_jump}
+12-05 14:28:13.894  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=androidx.appcompat.widget.AppCompatTextView{7a4d090 VFED..C.. ...P.... 1594,956-1744,1003 #7f08015d app:id/tv_ads_jump}
+12-05 14:28:13.894  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=androidx.appcompat.widget.AppCompatTextView{7a4d090 VFED..C.. ...P.... 1594,956-1744,1003 #7f08015d app:id/tv_ads_jump}
+12-05 14:28:13.894  4479  4479 D NewPadTV: ViewShowChooser--adsClick view=androidx.appcompat.widget.AppCompatTextView{7a4d090 VFED..C.. ...P.... 1594,956-1744,1003 #7f08015d app:id/tv_ads_jump}
+12-05 14:28:13.894  4479  4479 D NewPadTV: ViewShowChooser--adsClick view=androidx.appcompat.widget.AppCompatTextView{7a4d090 VFED..C.. ...P.... 1594,956-1744,1003 #7f08015d app:id/tv_ads_jump}
+12-05 14:28:13.896  4479  4479 D NewPadTV: MainActivity--stopMDM serviceWork=false
+12-05 14:28:13.896  4479  4479 D NewPadTV: MainActivity--stopMDM serviceWork=false
+12-05 14:28:13.912  4479  4479 D NewPadTV: MdmInternalService--onStartCommand 
+12-05 14:28:13.912  4479  4479 D NewPadTV: MdmInternalService--onStartCommand 
+12-05 14:28:13.914  4479  4479 D NewPadTV: MdmInternalService--onStartCommand mModel=newNeutralPadTV mCustomID=GT111149
+12-05 14:28:13.914  4479  4479 D NewPadTV: MdmApi--setNetMode  mode=3
+12-05 14:28:13.914  4479  4479 D NewPadTV: MdmApi--setNetMode   Constant.BASE_URL=https://atms.geniatech.com/mdm/
+12-05 14:28:13.914  4479  4479 D NewPadTV: MdmInternalService--startMqtt 
+12-05 14:28:13.914  4479  4479 D NewPadTV: MdmInternalService--onStartCommand mModel=newNeutralPadTV mCustomID=GT111149
+12-05 14:28:13.916  4479  4479 D NewPadTV: MdmManager--registerNetwork  RuntimeExec  201906031102
+12-05 14:28:13.914  4479  4479 D NewPadTV: MdmApi--setNetMode  mode=3
+12-05 14:28:13.916  4479  4479 D NewPadTV: MdmManager--registerNetwork
+12-05 14:28:13.914  4479  4479 D NewPadTV: MdmApi--setNetMode   Constant.BASE_URL=https://atms.geniatech.com/mdm/
+12-05 14:28:13.917  4479  4479 D NewPadTV: MdmInternalService--onStart service
+12-05 14:28:13.914  4479  4479 D NewPadTV: MdmInternalService--startMqtt 
+12-05 14:28:13.916  4479  4479 D NewPadTV: MdmManager--registerNetwork  RuntimeExec  201906031102
+12-05 14:28:13.916  4479  4479 D NewPadTV: MdmManager--registerNetwork
+12-05 14:28:13.917  4479  4479 D NewPadTV: MdmInternalService--onStart service
+12-05 14:28:13.919  4479  4479 D NewPadTV: NetworkChangeReceiver--NetworkChangeReceiver  onReceive  connected=true
+12-05 14:28:13.919  4479  4479 D NewPadTV: MdmManager--onNetConnected  DeviceMode=2
+12-05 14:28:13.919  4479  4479 D NewPadTV: Base64Utils--setEncryption  encodeWord= MTYzODY4OTI5MzkxOQ==
+12-05 14:28:13.919  4479  4479 I NewPadTV: HttpManager--getProductKey  customId=GT111149,model=newNeutralPadTV,encryptionTime=MTYzODY4OTI5MzkxOQ==
+12-05 14:28:13.919  4479  4479 D NewPadTV: NetworkChangeReceiver--NetworkChangeReceiver  onReceive  connected=true
+12-05 14:28:13.919  4479  4479 D NewPadTV: MdmManager--onNetConnected  DeviceMode=2
+12-05 14:28:13.919  4479  4479 D NewPadTV: Base64Utils--setEncryption  encodeWord= MTYzODY4OTI5MzkxOQ==
+12-05 14:28:13.919  4479  4479 I NewPadTV: HttpManager--getProductKey  customId=GT111149,model=newNeutralPadTV,encryptionTime=MTYzODY4OTI5MzkxOQ==
+12-05 14:28:13.921  4479  6661 D NewPadTV: mdmInterceptor--LoraInterceptor
+12-05 14:28:13.921  4479  6661 D NewPadTV: mdmInterceptor--LoraInterceptor
+12-05 14:28:14.215  4479  4479 D NewPadTV: HttpManager--getProductKey--onNext  {"product_key":"b9580143d6ad61a9","user_id":"U205114901146894336","success":true,"custom_id":"C205114901146894336","product_id":"P206253072140206080","product_secret":"1dA8Dm7bKvMetuH6EaHF0QpxERJZhNPE"}
+12-05 14:28:14.215  4479  4479 D NewPadTV: MdmManager--getProductKey  success
+12-05 14:28:14.215  4479  4479 D NewPadTV: HttpManager--getProductKey--onNext  {"product_key":"b9580143d6ad61a9","user_id":"U205114901146894336","success":true,"custom_id":"C205114901146894336","product_id":"P206253072140206080","product_secret":"1dA8Dm7bKvMetuH6EaHF0QpxERJZhNPE"}
+12-05 14:28:14.215  4479  4479 D NewPadTV: MdmManager--getProductKey  success
+12-05 14:28:14.221  4479  4479 D NewPadTV: MqttConfig--getProductKey  productKey=null,productSecret=null
+12-05 14:28:14.221  4479  4479 D NewPadTV: MqttConfig--getProductKey  productKey=null,productSecret=null
+12-05 14:28:14.221  4479  4479 D NewPadTV: Base64Utils--setEncryption  encodeWord= bnVsbCZudWxs
+12-05 14:28:14.221  4479  4479 D NewPadTV: Base64Utils--setEncryption  encodeWord= bnVsbCZudWxs
+12-05 14:28:14.221  4479  4479 D NewPadTV: MqttConfig--onNetConnected  mdmKey=null&null,encryptionMdmKey=bnVsbCZudWxs
+12-05 14:28:14.221  4479  4479 D NewPadTV: MqttConfig--onNetConnected  mdmKey=null&null,encryptionMdmKey=bnVsbCZudWxs
+12-05 14:28:14.226  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID path=/storage/emulated/0/PdthdSerial
+12-05 14:28:14.226  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID path=/storage/emulated/0/PdthdSerial
+12-05 14:28:14.227  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID serial=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.227  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID serial=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.227  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.227  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.227  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.227  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.227  4479  4479 D NewPadTV: MqttConfig--onSuccess  customId=null
+12-05 14:28:14.227  4479  4479 D NewPadTV: MqttConfig--onSuccess  customId=null
+12-05 14:28:14.227  4479  4479 D NewPadTV: MqttConfig--onSuccess  deviceId=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.227  4479  4479 D NewPadTV: MqttConfig--onSuccess  deviceId=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.228  4479  4479 D NewPadTV: GsonUtils--toJson
+12-05 14:28:14.228  4479  4479 D NewPadTV: GsonUtils--toJson
+12-05 14:28:14.231  4479  4479 D NewPadTV: MqttConfig--getOfflineMessage  offlineData={}
+12-05 14:28:14.231  4479  4479 D NewPadTV: MqttConfig--getOfflineMessage  offlineData={}
+12-05 14:28:14.231  4479  4479 D NewPadTV: MqttManager--connect  userName=bnVsbCZudWxs-device-00000000-29ff-3ef0-ffff-ffffa3dca01a,password=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.231  4479  4479 D NewPadTV: MqttManager--connect  userName=bnVsbCZudWxs-device-00000000-29ff-3ef0-ffff-ffffa3dca01a,password=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:14.231  4479  4479 D NewPadTV: MqttManager--isConnected  mMqttAndroidClient != null
+12-05 14:28:14.231  4479  4479 D NewPadTV: MqttManager--isConnected  mMqttAndroidClient != null
+12-05 14:28:14.231  4479  4479 D NewPadTV: MqttManager--isConnected  isConnected=false
+12-05 14:28:14.231  4479  4479 D NewPadTV: MqttManager--isConnected  isConnected=false
+12-05 14:28:14.794  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:14.794  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:14.920  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:14.920  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:14.921  4479  4479 D NewPadTV: MainActivity--onClick v=androidx.appcompat.widget.AppCompatImageView{75a21a8 VFED..C.. ...P.... 1758,64-1885,159 #7f0800a5 app:id/iv_settings}
+12-05 14:28:14.921  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=androidx.appcompat.widget.AppCompatImageView{75a21a8 VFED..C.. ...P.... 1758,64-1885,159 #7f0800a5 app:id/iv_settings}
+12-05 14:28:14.921  4479  4479 D NewPadTV: ViewShowChooser--bottomInfoClick 
+12-05 14:28:14.921  4479  4479 D NewPadTV: MainActivity--onClick v=androidx.appcompat.widget.AppCompatImageView{75a21a8 VFED..C.. ...P.... 1758,64-1885,159 #7f0800a5 app:id/iv_settings}
+12-05 14:28:14.921  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=androidx.appcompat.widget.AppCompatImageView{75a21a8 VFED..C.. ...P.... 1758,64-1885,159 #7f0800a5 app:id/iv_settings}
+12-05 14:28:14.921  4479  4479 D NewPadTV: ViewShowChooser--bottomInfoClick 
+12-05 14:28:14.921  4479  4479 D NewPadTV: FocusManager--requestFocus b=false
+12-05 14:28:14.921  4479  4479 D NewPadTV: ViewShowChooser--showSettings atscModel=false
+12-05 14:28:14.922  4479  4479 D NewPadTV: ViewShowChooser--hideMainInfos GestureDetector 
+12-05 14:28:14.921  4479  4479 D NewPadTV: FocusManager--requestFocus b=false
+12-05 14:28:14.921  4479  4479 D NewPadTV: ViewShowChooser--showSettings atscModel=false
+12-05 14:28:14.922  4479  4479 D NewPadTV: ViewShowChooser--hideMainInfos GestureDetector 
+12-05 14:28:18.058  4479  6758 D AlarmPingSender: Unregister alarmreceiver to MqttService1638689294231
+12-05 14:28:18.058  4479  6758 D AlarmPingSender: Unregister alarmreceiver to MqttService1638689294231
+12-05 14:28:18.870  4479  6760 D AlarmPingSender: Unregister alarmreceiver to MqttService1638689294231
+12-05 14:28:18.870  4479  6760 D AlarmPingSender: Unregister alarmreceiver to MqttService1638689294231
+12-05 14:28:18.876  4479  4479 E NewPadTV: MqttManager--connect--onFailure  error=Not authorized to connect
+12-05 14:28:18.877  4479  4479 E NewPadTV: MdmManager--initMqtt  onFailure  error=Not authorized to connect
+12-05 14:28:18.876  4479  4479 E NewPadTV: MqttManager--connect--onFailure  error=Not authorized to connect
+12-05 14:28:18.877  4479  4479 E NewPadTV: MdmManager--initMqtt  onFailure  error=Not authorized to connect
+12-05 14:28:25.261  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:25.261  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:25.357  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:25.357  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:25.358  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{cf73af9 VFE...C.. ...P.... 136,0-319,227 #7f08010f app:id/prl_tv_channels}
+12-05 14:28:25.358  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{cf73af9 VFE...C.. ...P.... 136,0-319,227 #7f08010f app:id/prl_tv_channels}
+12-05 14:28:25.358  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{cf73af9 VFE...C.. ...P.... 136,0-319,227 #7f08010f app:id/prl_tv_channels}
+12-05 14:28:25.358  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{cf73af9 VFE...C.. ...P.... 136,0-319,227 #7f08010f app:id/prl_tv_channels}
+12-05 14:28:25.359  4479  4479 D NewPadTV: ViewShowChooser--showFragment type=1
+12-05 14:28:25.359  4479  4479 D NewPadTV: ViewShowChooser--showFragment type=1
+12-05 14:28:25.417  4479  4479 D NewPadTV: FocusManager--requestFocus b=false
+12-05 14:28:25.417  4479  4479 D NewPadTV: FocusManager--requestFocus b=false
+12-05 14:28:25.420  4479  4479 D NewPadTV: ChannelFragment--initChannel currentTitleIndex=0
+12-05 14:28:25.420  4479  4479 D NewPadTV: ChannelFragment--initChannel currentTitleIndex=0
+12-05 14:28:25.421  4479  4479 D NewPadTV: MainActivity--getChannelData mChannelData.size=0
+12-05 14:28:25.421  4479  4479 D NewPadTV: MainActivity--getChannelData mChannelData.size=0
+12-05 14:28:25.422  4479  4479 D NewPadTV: ChannelRecyclerViewAdapter--ChannelRecyclerViewAdapter mData.size=0
+12-05 14:28:25.422  4479  4479 D NewPadTV: ChannelRecyclerViewAdapter--ChannelRecyclerViewAdapter mData.size=0
+12-05 14:28:25.430  4479  4479 D NewPadTV: MyRecyclerView--onLayout 
+12-05 14:28:25.430  4479  4479 D NewPadTV: MyRecyclerView--onLayout 
+12-05 14:28:25.430  4479  4479 D NewPadTV: MyRecyclerView--onLayout visibleCount=0
+12-05 14:28:25.430  4479  4479 D NewPadTV: MyRecyclerView--onLayout visibleCount=0
+12-05 14:28:25.430  4479  4479 D NewPadTV: ChannelFragment--onLoadVisibleFinish mChannelLinearLayoutManager=com.Pad.tvapp.views.recycler.MyLinearLayoutManager@7a8be6d isFirstScroll=true
+12-05 14:28:25.430  4479  4479 D NewPadTV: ChannelFragment--onLoadVisibleFinish mChannelLinearLayoutManager=com.Pad.tvapp.views.recycler.MyLinearLayoutManager@7a8be6d isFirstScroll=true
+12-05 14:28:25.443  4479  4479 D NewPadTV: MyRecyclerView--onLayout 
+12-05 14:28:25.443  4479  4479 D NewPadTV: MyRecyclerView--onLayout visibleCount=0
+12-05 14:28:25.443  4479  4479 D NewPadTV: ChannelFragment--onLoadVisibleFinish mChannelLinearLayoutManager=com.Pad.tvapp.views.recycler.MyLinearLayoutManager@7a8be6d isFirstScroll=false
+12-05 14:28:25.443  4479  4479 D NewPadTV: MyRecyclerView--onLayout 
+12-05 14:28:25.443  4479  4479 D NewPadTV: MyRecyclerView--onLayout visibleCount=0
+12-05 14:28:25.443  4479  4479 D NewPadTV: ChannelFragment--onLoadVisibleFinish mChannelLinearLayoutManager=com.Pad.tvapp.views.recycler.MyLinearLayoutManager@7a8be6d isFirstScroll=false
+12-05 14:28:28.901  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 0
+12-05 14:28:28.901  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 0
+12-05 14:28:28.901  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@22c7aa2
+12-05 14:28:28.901  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@22c7aa2
+12-05 14:28:28.901  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:28.901  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:28.902  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:28.902  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:28.902  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=af{599c333 #0 id=0x7f080070}
+12-05 14:28:28.902  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=af{599c333 #0 id=0x7f080070}
+12-05 14:28:28.902  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=1 currentShowingFragment=af{599c333 #0 id=0x7f080070}
+12-05 14:28:28.902  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=1 currentShowingFragment=af{599c333 #0 id=0x7f080070}
+12-05 14:28:28.903  4479  4479 D NewPadTV: MainActivity--onKeyDown b=true
+12-05 14:28:28.903  4479  4479 D NewPadTV: MainActivity--onKeyDown b=true
+12-05 14:28:28.909  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=1 currentShowingFragment=null
+12-05 14:28:28.909  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=1 currentShowingFragment=null
+12-05 14:28:28.967  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 1
+12-05 14:28:28.967  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 1
+12-05 14:28:30.816  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:30.816  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:30.897  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:30.897  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:30.898  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{4021f53 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:28:30.898  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{4021f53 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:28:30.898  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{4021f53 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:28:30.898  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{4021f53 VFE...C.. ...P.... 0,0-1920,1080 #7f0800ee app:id/prl_main_activity_container}
+12-05 14:28:30.898  4479  4479 D NewPadTV: ViewShowChooser--mainClick 
+12-05 14:28:30.898  4479  4479 D NewPadTV: ViewShowChooser--mainClick 
+12-05 14:28:30.898  4479  4479 D NewPadTV: ViewShowChooser--mainClick sv_play_screen showingMainInfo=false showingSettings=false
+12-05 14:28:30.898  4479  4479 D NewPadTV: ViewShowChooser--mainClick sv_play_screen showingMainInfo=false showingSettings=false
+12-05 14:28:30.898  4479  4479 D NewPadTV: ViewShowChooser--showMainInfos GestureDetector
+12-05 14:28:30.898  4479  4479 D NewPadTV: ViewShowChooser--showMainInfos GestureDetector
+12-05 14:28:31.741  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:31.741  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:31.834  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:31.834  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:31.835  4479  4479 D NewPadTV: MainActivity--onClick v=androidx.appcompat.widget.AppCompatImageView{75a21a8 VFED..C.. ...P.... 1758,64-1885,159 #7f0800a5 app:id/iv_settings}
+12-05 14:28:31.835  4479  4479 D NewPadTV: MainActivity--onClick v=androidx.appcompat.widget.AppCompatImageView{75a21a8 VFED..C.. ...P.... 1758,64-1885,159 #7f0800a5 app:id/iv_settings}
+12-05 14:28:31.835  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=androidx.appcompat.widget.AppCompatImageView{75a21a8 VFED..C.. ...P.... 1758,64-1885,159 #7f0800a5 app:id/iv_settings}
+12-05 14:28:31.835  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=androidx.appcompat.widget.AppCompatImageView{75a21a8 VFED..C.. ...P.... 1758,64-1885,159 #7f0800a5 app:id/iv_settings}
+12-05 14:28:31.835  4479  4479 D NewPadTV: ViewShowChooser--bottomInfoClick 
+12-05 14:28:31.835  4479  4479 D NewPadTV: ViewShowChooser--bottomInfoClick 
+12-05 14:28:31.835  4479  4479 D NewPadTV: FocusManager--requestFocus b=false
+12-05 14:28:31.835  4479  4479 D NewPadTV: FocusManager--requestFocus b=false
+12-05 14:28:31.836  4479  4479 D NewPadTV: ViewShowChooser--showSettings atscModel=false
+12-05 14:28:31.836  4479  4479 D NewPadTV: ViewShowChooser--showSettings atscModel=false
+12-05 14:28:31.836  4479  4479 D NewPadTV: ViewShowChooser--hideMainInfos GestureDetector 
+12-05 14:28:31.836  4479  4479 D NewPadTV: ViewShowChooser--hideMainInfos GestureDetector 
+12-05 14:28:37.180  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:37.180  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:37.297  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:37.297  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:37.298  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{b9fd469 VFE...C.. ...P.... 1600,0-1783,227 #7f08010a app:id/prl_settings_settings}
+12-05 14:28:37.298  4479  4479 D NewPadTV: MainActivity--onClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{b9fd469 VFE...C.. ...P.... 1600,0-1783,227 #7f08010a app:id/prl_settings_settings}
+12-05 14:28:37.298  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{b9fd469 VFE...C.. ...P.... 1600,0-1783,227 #7f08010a app:id/prl_settings_settings}
+12-05 14:28:37.298  4479  4479 D NewPadTV: ViewShowChooser--dispatchClick v=com.Pad.tvapp.views.percent.PercentRelativeLayout{b9fd469 VFE...C.. ...P.... 1600,0-1783,227 #7f08010a app:id/prl_settings_settings}
+12-05 14:28:37.298  4479  4479 D NewPadTV: ViewShowChooser--showSettingsFragment 
+12-05 14:28:37.298  4479  4479 D NewPadTV: ViewShowChooser--showSettingsFragment 
+12-05 14:28:37.299  4479  4479 D NewPadTV: ViewShowChooser--showFragment type=32
+12-05 14:28:37.299  4479  4479 D NewPadTV: ViewShowChooser--showFragment type=32
+12-05 14:28:37.335  4479  4479 D NewPadTV: NewBaseFragment--initView []
+12-05 14:28:37.335  4479  4479 D NewPadTV: NewBaseFragment--initView []
+12-05 14:28:37.336  4479  4479 D NewPadTV: NewSettingsFragment--initViewFinished 
+12-05 14:28:37.336  4479  4479 D NewPadTV: NewSettingsFragment--initViewFinished 
+12-05 14:28:37.353  4479  4479 D AbsListView:  in onLayout changed 
+12-05 14:28:37.353  4479  4479 D AbsListView:  in onLayout changed 
+12-05 14:28:37.451  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@e52dc20 nm : com.Pad.tvapp ic=null
+12-05 14:28:37.451  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:37.451  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@e52dc20 nm : com.Pad.tvapp ic=null
+12-05 14:28:37.451  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:39.249  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:39.249  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:39.366  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:39.366  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:39.367  4479  4479 D AbsListView: onTouchUp() mTouchMode : 2
+12-05 14:28:39.367  4479  4479 D AbsListView: onTouchUp() mTouchMode : 2
+12-05 14:28:39.376  4479  4479 D NewPadTV: ViewShowChooser--showFragment type=1024
+12-05 14:28:39.376  4479  4479 D NewPadTV: ViewShowChooser--showFragment type=1024
+12-05 14:28:39.377  4479  4479 D NewPadTV: ScanFragment--onAttach 
+12-05 14:28:39.378  4479  4479 D NewPadTV: ScanFragment--onCreate 
+12-05 14:28:39.377  4479  4479 D NewPadTV: ScanFragment--onAttach 
+12-05 14:28:39.378  4479  4479 D NewPadTV: ScanFragment--onCreate 
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--ChannelManager 
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--ChannelManager 
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ALBANIA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ALBANIA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ANDORRA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BELARUS tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BULGARIA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ESTONIA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ANDORRA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BELARUS tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BULGARIA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ESTONIA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=LATVIA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=LATVIA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=LIECHTENSTEIN tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=LITHUANIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MACEDONIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MALTA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MOLDOVA tvStandard=DVB-T
+12-05 14:28:39.378  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=LIECHTENSTEIN tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MONACO tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=LITHUANIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MACEDONIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MALTA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MOLDOVA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MONACO tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ROMANIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=VATICAN tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SERBIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=UNITED ARAB EMIRATES tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ARGENTINA tvStandard=ISDB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=AUSTRIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=AUSTRALIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BELGIUM tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BRAZIL tvStandard=ISDB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CANADA tvStandard=ATSC
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SWITZERLAND tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CHILE tvStandard=ISDB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CHINA tvStandard=DMB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CZECHREPUBLIC tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=COSTA RICA tvStandard=ISDB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=GERMANY tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=DENMARK tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SPAIN tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=FINLAND tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=FRANCE tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=UNITED KINGDOM tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=GREECE tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=HONG KONG tvStandard=
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CROATIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=HUNGARY tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=INDONESIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=IRELAND tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ISRAEL tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=INDIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ICELAND tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ITALY tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ROMANIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=JAPAN tvStandard=ISDB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=VATICAN tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=LUXEMBOURG tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SERBIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MACAU tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=UNITED ARAB EMIRATES tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MEXICO tvStandard=ATSC
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ARGENTINA tvStandard=ISDB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MALAYSIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=AUSTRIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MYANMAR tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=AUSTRALIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=NETHERLANDS tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BELGIUM tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=NORWAY tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BRAZIL tvStandard=ISDB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=NEW ZEALAND tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CANADA tvStandard=ATSC
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=PERU tvStandard=ISDB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SWITZERLAND tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=PHILIPPINES tvStandard=ISDB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CHILE tvStandard=ISDB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=POLAND tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CHINA tvStandard=DMB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=PORTUGAL tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CZECHREPUBLIC tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=RUSSIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=COSTA RICA tvStandard=ISDB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SWEDEN tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=GERMANY tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SINGAPORE tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=DENMARK tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SLOVENIA tvStandard=DVB-T
+12-05 14:28:39.379  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SPAIN tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SLOVAKIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=FINLAND tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SAN SALVADOR tvStandard=ISDB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=FRANCE tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SAN MARINO tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=UNITED KINGDOM tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=THAILAND tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=GREECE tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=TURKEY tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=HONG KONG tvStandard=
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=TAIWAN tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=CROATIA tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=UKRAINE tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=HUNGARY tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=UNITED STATES tvStandard=ATSC
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=INDONESIA tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=VENEZUELA tvStandard=ISDB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=IRELAND tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=VIETNAM tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ISRAEL tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SOUTH AFRICA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=INDIA tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=KOREA tvStandard=ATSC
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=COLOMBIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ICELAND tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=IRAN tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=ITALY tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=JAMAICA tvStandard=ATSC
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=JAPAN tvStandard=ISDB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BOTSWANA tvStandard=ISDB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=LUXEMBOURG tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: IForViewChooserImp--getCurrentCountryData countryIndex=0
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MACAU tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--chooseCountry countryName=ANDORRA
+12-05 14:28:39.384  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID path=/storage/emulated/0/PdthdSerial
+12-05 14:28:39.384  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID serial=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:39.385  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:39.385  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:39.385  4479  4479 D NewPadTV: ChannelManager--setDeviceID deviceId=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:39.385  4479  4479 D NewPadTV: SharePreferenceManager--getValue key=lat
+12-05 14:28:39.385  4479  4479 D NewPadTV: SharePreferenceManager--getValue key=lng
+12-05 14:28:39.385  4479  4479 D NewPadTV: ChannelManager--setLatLng lat= lng=
+12-05 14:28:39.386  4479  4479 D NewPadTV: ViewShowChooser--hideSettingsFragment 
+12-05 14:28:39.386  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=32 currentShowingFragment=qf{919a9d9 #2 id=0x7f080070}
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MEXICO tvStandard=ATSC
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MALAYSIA tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=MYANMAR tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=NETHERLANDS tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=NORWAY tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=NEW ZEALAND tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=PERU tvStandard=ISDB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=PHILIPPINES tvStandard=ISDB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=POLAND tvStandard=DVB-T
+12-05 14:28:39.380  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=PORTUGAL tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=RUSSIA tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SWEDEN tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SINGAPORE tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SLOVENIA tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SLOVAKIA tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SAN SALVADOR tvStandard=ISDB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SAN MARINO tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=THAILAND tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=TURKEY tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=TAIWAN tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=UKRAINE tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=UNITED STATES tvStandard=ATSC
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=VENEZUELA tvStandard=ISDB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=VIETNAM tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=SOUTH AFRICA tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=KOREA tvStandard=ATSC
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=COLOMBIA tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=IRAN tvStandard=DVB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=JAMAICA tvStandard=ATSC
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--handleTVStandard countryName=BOTSWANA tvStandard=ISDB-T
+12-05 14:28:39.381  4479  4479 D NewPadTV: IForViewChooserImp--getCurrentCountryData countryIndex=0
+12-05 14:28:39.381  4479  4479 D NewPadTV: ChannelManager--chooseCountry countryName=ANDORRA
+12-05 14:28:39.384  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID path=/storage/emulated/0/PdthdSerial
+12-05 14:28:39.384  4479  4479 D NewPadTV: DeviceInfoUtils--loadDeviceUUID serial=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:39.385  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:39.385  4479  4479 D NewPadTV: DeviceInfoUtils--getDeviceUUID uuid=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:39.385  4479  4479 D NewPadTV: ChannelManager--setDeviceID deviceId=00000000-29ff-3ef0-ffff-ffffa3dca01a
+12-05 14:28:39.385  4479  4479 D NewPadTV: SharePreferenceManager--getValue key=lat
+12-05 14:28:39.385  4479  4479 D NewPadTV: SharePreferenceManager--getValue key=lng
+12-05 14:28:39.385  4479  4479 D NewPadTV: ChannelManager--setLatLng lat= lng=
+12-05 14:28:39.386  4479  4479 D NewPadTV: ViewShowChooser--hideSettingsFragment 
+12-05 14:28:39.386  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=32 currentShowingFragment=qf{919a9d9 #2 id=0x7f080070}
+12-05 14:28:39.390  4479  4479 D NewPadTV: ScanFragment--onCreateView 
+12-05 14:28:39.390  4479  4479 D NewPadTV: ScanFragment--onCreateView 
+12-05 14:28:39.456  4479  4479 D NewPadTV: IForViewChooserImp--stopPlay 
+12-05 14:28:39.456  4479  4479 D NewPadTV: ViewShowChooser--isShowingRecording b=false
+12-05 14:28:39.456  4479  4479 D NewPadTV: IForViewChooserImp--stopPlay 
+12-05 14:28:39.456  4479  4479 D NewPadTV: ViewShowChooser--isShowingRecording b=false
+12-05 14:28:39.456  4479  6711 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread 
+12-05 14:28:39.456  4479  6711 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread 
+12-05 14:28:39.456  4479  6711 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread MSG_THREAD_HANDLER_STOP_PLAY mDVBClient=com.Pad.tvservice.DVBClient@50617aa
+12-05 14:28:39.456  4479  6711 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread MSG_THREAD_HANDLER_STOP_PLAY mDVBClient=com.Pad.tvservice.DVBClient@50617aa
+12-05 14:28:39.456  4479  4479 D NewPadTV: ScanFragment--switchButtonMode mode=0
+12-05 14:28:39.456  4479  4479 D NewPadTV: ScanFragment--switchButtonMode mode=0
+12-05 14:28:39.457  4479  6711 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:39.457  4479  6711 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:39.457  4479  6711 I chatty  : uid=10089(u0_a89) thread_acomplex identical 1 line
+12-05 14:28:39.457  4479  6711 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:39.457  4479  4479 D NewPadTV: ScanFragment--showCountryNameAndRes 
+12-05 14:28:39.457  4479  6711 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:39.457  4479  6711 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:39.457  4479  4479 D NewPadTV: IForViewChooserImp--getCurrentCountryData countryIndex=0
+12-05 14:28:39.457  4479  6711 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread MSG_THREAD_HANDLER_STOP_PLAY hwDecoder=false
+12-05 14:28:39.457  4479  4479 D NewPadTV: ChannelManager--chooseCountry countryName=ANDORRA
+12-05 14:28:39.457  4479  6711 I chatty  : uid=10089(u0_a89) thread_acomplex identical 1 line
+12-05 14:28:39.457  4479  6711 I SDL_android: Java_com_geniatech_dvbcodec_ui_VideoGLSurfaceView_ChangeChannel >>In hwdecoder 1 0 0 0 128
+12-05 14:28:39.457  4479  6711 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:39.457  4479  6711 D NewPadTV: ViewShowChooser--isShowingRecording b=false
+12-05 14:28:39.457  4479  4479 D NewPadTV: ScanFragment--showCountryNameAndRes 
+12-05 14:28:39.457  4479  6711 D NewPadTV: DVBClient--stopPlay 
+12-05 14:28:39.457  4479  6711 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:39.457  4479  6711 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:39.457  4479  4479 D NewPadTV: IForViewChooserImp--getCurrentCountryData countryIndex=0
+12-05 14:28:39.457  4479  6711 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread MSG_THREAD_HANDLER_STOP_PLAY hwDecoder=false
+12-05 14:28:39.457  4479  4479 D NewPadTV: ChannelManager--chooseCountry countryName=ANDORRA
+12-05 14:28:39.457  4479  6711 I SDL_android: Java_com_geniatech_dvbcodec_ui_VideoGLSurfaceView_ChangeChannel >>In hwdecoder 1 0 0 0 128
+12-05 14:28:39.457  4479  6711 D NewPadTV: ViewShowChooser--isShowingRecording b=false
+12-05 14:28:39.457  4479  6711 D NewPadTV: DVBClient--stopPlay 
+12-05 14:28:39.462  4479  4479 D NewPadTV: AssetsUtil--isQAMCountryEnable s=ANDORRA QAM contains=false
+12-05 14:28:39.462  4479  4479 D NewPadTV: AssetsUtil--isQAMCountryEnable s=ANDORRA QAM contains=false
+12-05 14:28:39.462  4479  4479 D NewPadTV: IForViewChooserImp--initCountryIndex countryIndex=0
+12-05 14:28:39.462  4479  4479 D NewPadTV: IForViewChooserImp--initCountryIndex countryIndex=0
+12-05 14:28:39.462  4479  4479 D NewPadTV: TVControl--setCountryIndex index=0
+12-05 14:28:39.462  4479  4479 D NewPadTV: TVControl--setCountryIndex index=0
+12-05 14:28:39.462  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly Build.VERSION.SDK_INT=26
+12-05 14:28:39.462  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly Build.VERSION.SDK_INT=26
+12-05 14:28:39.463  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly size=2
+12-05 14:28:39.463  4479  4479 D NewPadTV: PermissionUtil--checkPermissionOnly size=2
+12-05 14:28:39.463  4479  4479 D NewPadTV: ScanFragment--init b=false
+12-05 14:28:39.463  4479  4479 D NewPadTV: ScanFragment--init b=false
+12-05 14:28:39.490  4479  4479 D NewPadTV: ScanFragment--onActivityCreated 
+12-05 14:28:39.490  4479  4479 D NewPadTV: ScanFragment--onStart 
+12-05 14:28:39.490  4479  4479 D NewPadTV: ScanFragment--onResume 
+12-05 14:28:39.490  4479  4479 D NewPadTV: ScanFragment--onActivityCreated 
+12-05 14:28:39.490  4479  4479 D NewPadTV: ScanFragment--onStart 
+12-05 14:28:39.490  4479  4479 D NewPadTV: ScanFragment--onResume 
+12-05 14:28:39.492  4479  4479 I zygote64: Deoptimizing void xf.a(int, int) due to JIT inline cache
+12-05 14:28:39.492  4479  4479 I zygote64: Deoptimizing void xf.a(int, int) due to JIT inline cache
+12-05 14:28:39.496  4479  4479 I zygote64: Deoptimizing void j2.a(int, float) due to JIT inline cache
+12-05 14:28:39.496  4479  4479 I zygote64: Deoptimizing void j2.a(int, float) due to JIT inline cache
+12-05 14:28:39.513  4479  4479 D NewPadTV: ViewShowChooser--surface hideSurfaceView viewBlackCurtainForSurface VISIBLE
+12-05 14:28:39.513  4479  4479 D NewPadTV: MainActivity--onPause 
+12-05 14:28:39.514  4479  4479 D NewPadTV: ScanFragment--onPause 
+12-05 14:28:39.513  4479  4479 D NewPadTV: ViewShowChooser--surface hideSurfaceView viewBlackCurtainForSurface VISIBLE
+12-05 14:28:39.513  4479  4479 D NewPadTV: MainActivity--onPause 
+12-05 14:28:39.514  4479  4479 D NewPadTV: ScanFragment--onPause 
+12-05 14:28:39.566  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+12-05 14:28:39.566  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+12-05 14:28:39.842  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:39.842  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:39.861  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: Relayout returned: old=[0,0][1920,1080] new=[0,0][1920,1080] result=0x1 surface={valid=true 481230475264} changed=false
+12-05 14:28:39.861  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: Relayout returned: old=[0,0][1920,1080] new=[0,0][1920,1080] result=0x1 surface={valid=true 481230475264} changed=false
+12-05 14:28:43.602  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:28:43.602  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:28:43.603  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@b2ee6e4 nm : com.Pad.tvapp ic=null
+12-05 14:28:43.603  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@b2ee6e4 nm : com.Pad.tvapp ic=null
+12-05 14:28:43.604  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:43.604  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:43.607  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:43.607  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:43.610  4479  4479 D NewPadTV: MainActivity--onRequestPermissionsResult requestCode=2
+12-05 14:28:43.610  4479  4479 D NewPadTV: MainActivity--onRequestPermissionsResult requestCode=2
+12-05 14:28:43.610  4479  4479 D NewPadTV: PermissionUtil--hasBeGranted length=2
+12-05 14:28:43.610  4479  4479 D NewPadTV: PermissionUtil--hasBeGranted length=2
+12-05 14:28:43.610  4479  4479 D NewPadTV: PermissionUtil--hasBeGranted i=0
+12-05 14:28:43.610  4479  4479 D NewPadTV: PermissionUtil--hasBeGranted i=0
+12-05 14:28:43.610  4479  4479 D NewPadTV: PermissionUtil--hasBeGranted i=0
+12-05 14:28:43.611  4479  4479 D NewPadTV: MainActivity--onRequestPermissionsResult b=true
+12-05 14:28:43.610  4479  4479 D NewPadTV: PermissionUtil--hasBeGranted i=0
+12-05 14:28:43.611  4479  4479 D NewPadTV: MainActivity--onRequestPermissionsResult b=true
+12-05 14:28:43.619  4479  4479 D NewPadTV: MyLocationManager--requestLocation provider=network providerEnabled=false
+12-05 14:28:43.619  4479  4479 D NewPadTV: MyLocationManager--requestLocation provider=network providerEnabled=false
+12-05 14:28:43.619  4479  4479 D NewPadTV: MyLocationManager--requestLocation provider=gps providerEnabled=false
+12-05 14:28:43.619  4479  4479 D NewPadTV: MyLocationManager--requestLocation provider=gps providerEnabled=false
+12-05 14:28:43.620  4479  4479 D NewPadTV: MainActivity--onResume 
+12-05 14:28:43.620  4479  4479 D NewPadTV: MainActivity--onResume 
+12-05 14:28:43.634  4479  4479 D NewPadTV: MainActivity--configSettings mCurrentDevicePid=0
+12-05 14:28:43.634  4479  4479 D NewPadTV: MainActivity--configSettings mCurrentDevicePid=0
+12-05 14:28:43.635  4479  4479 D NewPadTV: MainActivity--onResume hasUsbPermission=false
+12-05 14:28:43.635  4479  4479 D NewPadTV: MainActivity--onResume hasUsbPermission=false
+12-05 14:28:43.635  4479  4479 D NewPadTV: MainActivity--doConnectedJobWhenResume newCreate=false
+12-05 14:28:43.635  4479  4479 D NewPadTV: MainActivity--doConnectedJobWhenResume newCreate=false
+12-05 14:28:43.635  4479  4479 D NewPadTV: StatusUtil--checkStatusHolderContent s=0000_0000000000_0000000000_0000000000_0000000000_0000000001_0000000000
+12-05 14:28:43.635  4479  4479 D NewPadTV: StatusUtil--checkStatusHolderContent s=0000_0000000000_0000000000_0000000000_0000000000_0000000001_0000000000
+12-05 14:28:43.636  4479  4479 D NewPadTV: MainActivity--doConnectedJob deviceConnected=false showAds=false showingSplashLogo=false
+12-05 14:28:43.636  4479  4479 D NewPadTV: ScanFragment--onResume 
+12-05 14:28:43.636  4479  4479 D NewPadTV: MainActivity--doConnectedJob deviceConnected=false showAds=false showingSplashLogo=false
+12-05 14:28:43.636  4479  4479 D NewPadTV: ScanFragment--onResume 
+12-05 14:28:46.674  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:46.674  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:46.762  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:46.762  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:46.782  4479  4479 D ScrollView: initGoToTop
+12-05 14:28:46.782  4479  4479 D ScrollView: initGoToTop
+12-05 14:28:46.829  4479  4479 D NewPadTV: InfoHintDialog--InfoHintDialog mRootWidth=720 mRootHeight=494
+12-05 14:28:46.829  4479  4479 D NewPadTV: InfoHintDialog--InfoHintDialog mRootWidth=720 mRootHeight=494
+12-05 14:28:46.836  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: setView = DecorView@17d4ed3[] TM=true MM=false
+12-05 14:28:46.836  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: setView = DecorView@17d4ed3[] TM=true MM=false
+12-05 14:28:46.845  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: dispatchAttachedToWindow
+12-05 14:28:46.846  4479  4479 I zygote64: Deoptimizing void xf.a(int, int) due to JIT same target
+12-05 14:28:46.845  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: dispatchAttachedToWindow
+12-05 14:28:46.846  4479  4479 I zygote64: Deoptimizing void xf.a(int, int) due to JIT same target
+12-05 14:28:46.869  4479  4479 V Surface : sf_framedrop debug : 0x4f4c, game : false, logging : 0
+12-05 14:28:46.869  4479  4479 V Surface : sf_framedrop debug : 0x4f4c, game : false, logging : 0
+12-05 14:28:46.870  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: Relayout returned: old=[0,0][0,0] new=[600,293][1320,787] result=0x7 surface={valid=true 481058725888} changed=true
+12-05 14:28:46.870  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: Relayout returned: old=[0,0][0,0] new=[600,293][1320,787] result=0x7 surface={valid=true 481058725888} changed=true
+12-05 14:28:46.874  4479  4601 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [936x710]-format:1
+12-05 14:28:46.874  4479  4601 D OpenGLRenderer: eglCreateWindowSurface = 0x700651ebc0
+12-05 14:28:46.874  4479  4601 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [936x710]-format:1
+12-05 14:28:46.874  4479  4601 D OpenGLRenderer: eglCreateWindowSurface = 0x700651ebc0
+12-05 14:28:46.875  4479  4479 D ScrollView:  onsize change changed 
+12-05 14:28:46.875  4479  4479 D ScrollView:  onsize change changed 
+12-05 14:28:46.877  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:28:46.878  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@cc4052f nm : com.Pad.tvapp ic=null
+12-05 14:28:46.878  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:46.877  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:28:46.878  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@cc4052f nm : com.Pad.tvapp ic=null
+12-05 14:28:46.878  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:46.880  4479  4479 D NewPadTV: InfoHintDialog--onShow 
+12-05 14:28:46.880  4479  4479 D NewPadTV: InfoHintDialog--onShow 
+12-05 14:28:46.891  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(600, 293 - 1320, 787) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+12-05 14:28:46.891  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:46.891  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(600, 293 - 1320, 787) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=2
+12-05 14:28:46.891  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:46.924  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+12-05 14:28:46.924  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+12-05 14:28:49.706  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:49.706  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: ViewPostIme pointer 0
+12-05 14:28:49.777  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:49.777  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: ViewPostIme pointer 1
+12-05 14:28:49.789  4479  4601 D OpenGLRenderer: eglDestroySurface = 0x700651ebc0
+12-05 14:28:49.789  4479  4601 D OpenGLRenderer: eglDestroySurface = 0x700651ebc0
+12-05 14:28:49.789  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: dispatchDetachedFromWindow
+12-05 14:28:49.789  4479  4479 D InputEventReceiver: channel 'b431348 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~ Disposing input event receiver.
+12-05 14:28:49.789  4479  4479 D InputEventReceiver: channel 'b431348 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~NativeInputEventReceiver.
+12-05 14:28:49.789  4479  4479 D ViewRootImpl@abe70c2[MainActivity]: dispatchDetachedFromWindow
+12-05 14:28:49.789  4479  4479 D InputEventReceiver: channel 'b431348 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~ Disposing input event receiver.
+12-05 14:28:49.789  4479  4479 D InputEventReceiver: channel 'b431348 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~NativeInputEventReceiver.
+12-05 14:28:49.802  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:28:49.802  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+12-05 14:28:49.804  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@1cc7f7d nm : com.Pad.tvapp ic=null
+12-05 14:28:49.804  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@1cc7f7d nm : com.Pad.tvapp ic=null
+12-05 14:28:49.804  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:49.806  4479  4479 E ViewRootImpl: sendUserActionEvent() returned.
+12-05 14:28:49.806  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:49.806  4479  4479 E ViewRootImpl: sendUserActionEvent() returned.
+12-05 14:28:49.804  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:49.806  4479  4479 E ViewRootImpl: sendUserActionEvent() returned.
+12-05 14:28:49.806  4479  4479 D NewPadTV: MainAcitvity--initObject onSystemUiVisibilityChange 
+12-05 14:28:49.806  4479  4479 E ViewRootImpl: sendUserActionEvent() returned.
+12-05 14:28:51.543  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 0
+12-05 14:28:51.543  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 0
+12-05 14:28:51.543  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@22c7aa2
+12-05 14:28:51.543  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@22c7aa2
+12-05 14:28:51.544  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:51.544  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:51.544  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=qf{919a9d9 #2 id=0x7f080070}
+12-05 14:28:51.544  4479  4479 D NewPadTV: ViewShowChooser--isShowingCountrySelect b=false
+12-05 14:28:51.544  4479  4479 D NewPadTV: ScanFragment--onKeyDown showingCountrySelect=false
+12-05 14:28:51.544  4479  4479 D NewPadTV: ViewShowChooser--showSettingsFragment 
+12-05 14:28:51.545  4479  4479 D NewPadTV: ViewShowChooser--showFragment type=32
+12-05 14:28:51.546  4479  4479 D NewPadTV: IForViewChooserImp--startPlay deviceConnected=false
+12-05 14:28:51.546  4479  4479 D NewPadTV: MainActivity--onKeyDown b=true
+12-05 14:28:51.548  4479  4479 D NewPadTV: ScanFragment--onPause 
+12-05 14:28:51.548  4479  4479 D NewPadTV: ScanFragment--onStop 
+12-05 14:28:51.549  4479  4479 D NewPadTV: ScanFragment--onDestroyView 
+12-05 14:28:51.549  4479  4479 D NewPadTV: ViewShowChooser--hideScanFragment 
+12-05 14:28:51.544  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:51.549  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=1024 currentShowingFragment=nf{a988e72 #3 id=0x7f080070}
+12-05 14:28:51.544  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:51.544  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=qf{919a9d9 #2 id=0x7f080070}
+12-05 14:28:51.544  4479  4479 D NewPadTV: ViewShowChooser--isShowingCountrySelect b=false
+12-05 14:28:51.544  4479  4479 D NewPadTV: ScanFragment--onKeyDown showingCountrySelect=false
+12-05 14:28:51.544  4479  4479 D NewPadTV: ViewShowChooser--showSettingsFragment 
+12-05 14:28:51.545  4479  4479 D NewPadTV: ViewShowChooser--showFragment type=32
+12-05 14:28:51.546  4479  4479 D NewPadTV: IForViewChooserImp--startPlay deviceConnected=false
+12-05 14:28:51.546  4479  4479 D NewPadTV: MainActivity--onKeyDown b=true
+12-05 14:28:51.548  4479  4479 D NewPadTV: ScanFragment--onPause 
+12-05 14:28:51.548  4479  4479 D NewPadTV: ScanFragment--onStop 
+12-05 14:28:51.549  4479  4479 D NewPadTV: ScanFragment--onDestroyView 
+12-05 14:28:51.549  4479  4479 D NewPadTV: ViewShowChooser--hideScanFragment 
+12-05 14:28:51.549  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=1024 currentShowingFragment=nf{a988e72 #3 id=0x7f080070}
+12-05 14:28:51.566  4479  4479 D NewPadTV: ScanFragment--onDestroy 
+12-05 14:28:51.566  4479  4479 D NewPadTV: ScanFragment--onDetach 
+12-05 14:28:51.566  4479  4479 D NewPadTV: ScanFragment--onDestroy 
+12-05 14:28:51.566  4479  4479 D NewPadTV: ScanFragment--onDetach 
+12-05 14:28:51.575  4479  4479 D NewPadTV: NewBaseFragment--initView []
+12-05 14:28:51.575  4479  4479 D NewPadTV: NewBaseFragment--initView []
+12-05 14:28:51.576  4479  4479 D NewPadTV: NewSettingsFragment--initViewFinished 
+12-05 14:28:51.576  4479  4479 D NewPadTV: NewSettingsFragment--initViewFinished 
+12-05 14:28:51.584  4479  4479 D AbsListView:  in onLayout changed 
+12-05 14:28:51.584  4479  4479 D AbsListView:  in onLayout changed 
+12-05 14:28:51.629  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 1
+12-05 14:28:51.629  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 1
+12-05 14:28:51.695  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@d712135 nm : com.Pad.tvapp ic=null
+12-05 14:28:51.695  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:51.695  4479  4479 V InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@d712135 nm : com.Pad.tvapp ic=null
+12-05 14:28:51.695  4479  4479 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+12-05 14:28:52.548  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 0
+12-05 14:28:52.548  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 0
+12-05 14:28:52.553  4479  4479 D NewPadTV: MyListView--onKeyDown b=false keyCode1=4
+12-05 14:28:52.553  4479  4479 D NewPadTV: MyListView--onKeyDown b=false keyCode1=4
+12-05 14:28:52.553  4479  4479 D NewPadTV: MyListView--dispatchKeyEvent b=false keyCode=4
+12-05 14:28:52.553  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@22c7aa2
+12-05 14:28:52.553  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:52.553  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:52.554  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=nf{a988e72 #3 id=0x7f080070}
+12-05 14:28:52.554  4479  4479 D NewPadTV: SettingsFragment--onKeyDown keyCode=4
+12-05 14:28:52.554  4479  4479 D NewPadTV: ViewShowChooser--hideSettingsFragment 
+12-05 14:28:52.554  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=32 currentShowingFragment=nf{a988e72 #3 id=0x7f080070}
+12-05 14:28:52.555  4479  4479 D NewPadTV: MainActivity--onKeyDown b=true
+12-05 14:28:52.556  4479  4479 D NewPadTV: ViewShowChooser--hideSettingsFragment 
+12-05 14:28:52.556  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=32 currentShowingFragment=null
+12-05 14:28:52.553  4479  4479 D NewPadTV: MyListView--dispatchKeyEvent b=false keyCode=4
+12-05 14:28:52.553  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@22c7aa2
+12-05 14:28:52.553  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:52.553  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:52.554  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=nf{a988e72 #3 id=0x7f080070}
+12-05 14:28:52.554  4479  4479 D NewPadTV: SettingsFragment--onKeyDown keyCode=4
+12-05 14:28:52.554  4479  4479 D NewPadTV: ViewShowChooser--hideSettingsFragment 
+12-05 14:28:52.554  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=32 currentShowingFragment=nf{a988e72 #3 id=0x7f080070}
+12-05 14:28:52.555  4479  4479 D NewPadTV: MainActivity--onKeyDown b=true
+12-05 14:28:52.556  4479  4479 D NewPadTV: ViewShowChooser--hideSettingsFragment 
+12-05 14:28:52.556  4479  4479 D NewPadTV: ViewShowChooser--showingNothing type=32 currentShowingFragment=null
+12-05 14:28:52.666  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 1
+12-05 14:28:52.666  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 1
+12-05 14:28:53.757  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 0
+12-05 14:28:53.757  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 0
+12-05 14:28:53.757  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@22c7aa2
+12-05 14:28:53.758  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:53.757  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=yc@22c7aa2
+12-05 14:28:53.758  4479  4479 D NewPadTV: ViewShowChooser--onKeyDown keyCode=4
+12-05 14:28:53.758  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:53.758  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=null
+12-05 14:28:53.758  4479  4479 D NewPadTV: MainActivity--onKeyDown b=false
+12-05 14:28:53.758  4479  4479 D NewPadTV: ViewShowChooser--handleMainKeyEvent keyCode=4
+12-05 14:28:53.758  4479  4479 D NewPadTV: KeyEventDispatcher--onKeyEventSingle mIKeyHandler=null
+12-05 14:28:53.758  4479  4479 D NewPadTV: MainActivity--onKeyDown b=false
+12-05 14:28:53.874  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 1
+12-05 14:28:53.874  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: ViewPostIme key 1
+12-05 14:28:53.890  4479  4479 D NewPadTV: MainActivity--onPause 
+12-05 14:28:53.890  4479  4479 D NewPadTV: MainActivity--onPause 
+12-05 14:28:53.987  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+12-05 14:28:53.987  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+12-05 14:28:54.105  4479  4601 D OpenGLRenderer: eglDestroySurface = 0x70280c4840
+12-05 14:28:54.105  4479  4601 D OpenGLRenderer: eglDestroySurface = 0x70280c4840
+12-05 14:28:54.115  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: Relayout returned: old=[0,0][1920,1080] new=[0,0][1920,1080] result=0x5 surface={valid=false 0} changed=true
+12-05 14:28:54.115  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: Relayout returned: old=[0,0][1920,1080] new=[0,0][1920,1080] result=0x5 surface={valid=false 0} changed=true
+12-05 14:28:54.130  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:54.130  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:54.130  4479  4479 I chatty  : uid=10089(u0_a89) com.Pad.tvapp identical 3 lines
+12-05 14:28:54.130  4479  4479 I chatty  : uid=10089(u0_a89) com.Pad.tvapp identical 3 lines
+12-05 14:28:54.130  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:54.130  4479  4479 D NewPadTV: TVControl--TVControlHandlerWrapper stopPlayDirectly hwDecoder=false
+12-05 14:28:54.130  4479  4479 I SDL_android: Java_com_geniatech_dvbcodec_ui_VideoGLSurfaceView_ChangeChannel >>In hwdecoder 1 0 0 0 128
+12-05 14:28:54.130  4479  4479 D NewPadTV: DVBClient--stopPlay 
+12-05 14:28:54.130  4479  4479 D NewPadTV: ViewShowChooser--surface hideSurfaceView viewBlackCurtainForSurface VISIBLE
+12-05 14:28:54.132  4479  4479 D NewPadTV: MainActivity--onStop 
+12-05 14:28:54.132  4479  4479 D NewPadTV: MainActivity--onDestroy 
+12-05 14:28:54.133  4479  4479 D NewPadTV: MainActivity--stopMDM serviceWork=true
+12-05 14:28:54.130  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:54.130  4479  4479 D NewPadTV: TVControl--TVControlHandlerWrapper stopPlayDirectly hwDecoder=false
+12-05 14:28:54.130  4479  4479 I SDL_android: Java_com_geniatech_dvbcodec_ui_VideoGLSurfaceView_ChangeChannel >>In hwdecoder 1 0 0 0 128
+12-05 14:28:54.130  4479  4479 D NewPadTV: DVBClient--stopPlay 
+12-05 14:28:54.130  4479  4479 D NewPadTV: ViewShowChooser--surface hideSurfaceView viewBlackCurtainForSurface VISIBLE
+12-05 14:28:54.132  4479  4479 D NewPadTV: MainActivity--onStop 
+12-05 14:28:54.132  4479  4479 D NewPadTV: MainActivity--onDestroy 
+12-05 14:28:54.133  4479  4479 D NewPadTV: MainActivity--stopMDM serviceWork=true
+12-05 14:28:54.138  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:54.138  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:54.138  4479  4479 I chatty  : uid=10089(u0_a89) com.Pad.tvapp identical 3 lines
+12-05 14:28:54.138  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:54.138  4479  4479 I chatty  : uid=10089(u0_a89) com.Pad.tvapp identical 3 lines
+12-05 14:28:54.138  4479  4479 D NewPadTV: TVControl--TVControlHandlerWrapper stopPlayDirectly hwDecoder=false
+12-05 14:28:54.138  4479  4479 I SDL_android: Java_com_geniatech_dvbcodec_ui_VideoGLSurfaceView_ChangeChannel >>In hwdecoder 1 0 0 0 128
+12-05 14:28:54.138  4479  4479 D NewPadTV: DVBClient--stopPlay 
+12-05 14:28:54.138  4479  4479 D NewPadTV: ViewShowChooser--surface hideSurfaceView viewBlackCurtainForSurface VISIBLE
+12-05 14:28:54.139  4479  4479 I PLAYER libTsplayer: : ReleaseSurface m_nativeWindow 0
+12-05 14:28:54.139  4479  4479 D NewPadTV: MDMReceiver--unRegisterBroadcast 
+12-05 14:28:54.140  4479  4479 D NewPadTV: DVBClient--close_device 
+12-05 14:28:54.140  4479  4479 D NewPadTV: DVBClient--disconnect 
+12-05 14:28:54.140  4479  6711 D NewPadTV: ThreadHandler--handleMessage EXIT_THREAD:26
+12-05 14:28:54.146  4479  6711 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread 
+12-05 14:28:54.138  4479  4479 D NewPadTV: GTDevice--getDeviceModel model=SM-A520F
+12-05 14:28:54.138  4479  4479 D NewPadTV: TVControl--TVControlHandlerWrapper stopPlayDirectly hwDecoder=false
+12-05 14:28:54.138  4479  4479 I SDL_android: Java_com_geniatech_dvbcodec_ui_VideoGLSurfaceView_ChangeChannel >>In hwdecoder 1 0 0 0 128
+12-05 14:28:54.138  4479  4479 D NewPadTV: DVBClient--stopPlay 
+12-05 14:28:54.138  4479  4479 D NewPadTV: ViewShowChooser--surface hideSurfaceView viewBlackCurtainForSurface VISIBLE
+12-05 14:28:54.139  4479  4479 I PLAYER libTsplayer: : ReleaseSurface m_nativeWindow 0
+12-05 14:28:54.139  4479  4479 D NewPadTV: MDMReceiver--unRegisterBroadcast 
+12-05 14:28:54.140  4479  4479 D NewPadTV: DVBClient--close_device 
+12-05 14:28:54.140  4479  4479 D NewPadTV: DVBClient--disconnect 
+12-05 14:28:54.140  4479  6711 D NewPadTV: ThreadHandler--handleMessage EXIT_THREAD:26
+12-05 14:28:54.146  4479  6711 D NewPadTV: TVControlHandlerWrapper--handleMessageOfThread 
+12-05 14:28:54.157  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: dispatchDetachedFromWindow
+12-05 14:28:54.157  4479  4479 D ViewRootImpl@a314eb7[MainActivity]: dispatchDetachedFromWindow
+12-05 14:28:54.157  4479  4479 D InputEventReceiver: channel 'f3dc117 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~ Disposing input event receiver.
+12-05 14:28:54.157  4479  4479 D InputEventReceiver: channel 'f3dc117 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~ Disposing input event receiver.
+12-05 14:28:54.157  4479  4479 D InputEventReceiver: channel 'f3dc117 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~NativeInputEventReceiver.
+12-05 14:28:54.157  4479  4479 D InputEventReceiver: channel 'f3dc117 com.Pad.tvapp/com.Pad.tvapp.MainActivity (client)' ~NativeInputEventReceiver.
+12-05 14:28:54.182  4479  4479 E MdmInternalService: MdmInternalService--MdmInternalService--onDestroy
+12-05 14:28:54.182  4479  4479 E MdmInternalService: MdmInternalService--MdmInternalService--onDestroy
+12-05 14:28:54.182  4479  4479 D NewPadTV: MqttManager--onDestroy
+12-05 14:28:54.182  4479  4479 D NewPadTV: MqttManager--onDestroy
+12-05 14:28:54.182  4479  4479 D NewPadTV: MqttManager--isConnected  mMqttAndroidClient != null
+12-05 14:28:54.182  4479  4479 D NewPadTV: MqttManager--isConnected  isConnected=false
+12-05 14:28:54.182  4479  4479 D NewPadTV: MqttManager--isConnected  mMqttAndroidClient != null
+12-05 14:28:54.182  4479  4479 D NewPadTV: MqttManager--isConnected  isConnected=false
+12-05 14:28:56.254  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:56.254  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:56.254  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:56.254  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:56.580  4479  4551 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:56.580  4479  4551 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:56.580  4479  4551 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:28:56.580  4479  4551 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:32:02.098  4479  4957 D TelephonyManager: getCellLocation : Caller (PID / UID / TID): 4479 / 10089 / 4957
+12-05 14:32:02.098  4479  4957 D TelephonyManager: getCellLocation : Caller (PID / UID / TID): 4479 / 10089 / 4957
+12-05 14:32:02.196  4479  4957 I chatty  : uid=10089(u0_a89) Thread-19 identical 8 lines
+12-05 14:32:02.202  4479  4957 D TelephonyManager: getCellLocation : Caller (PID / UID / TID): 4479 / 10089 / 4957
+12-05 14:32:04.443  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:32:02.196  4479  4957 I chatty  : uid=10089(u0_a89) Thread-19 identical 8 lines
+12-05 14:32:02.202  4479  4957 D TelephonyManager: getCellLocation : Caller (PID / UID / TID): 4479 / 10089 / 4957
+12-05 14:32:04.443  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:32:04.444  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:32:04.444  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:36:48.268  4479  4957 D TelephonyManager: getCellLocation : Caller (PID / UID / TID): 4479 / 10089 / 4957
+12-05 14:36:48.268  4479  4957 D TelephonyManager: getCellLocation : Caller (PID / UID / TID): 4479 / 10089 / 4957
+12-05 14:36:48.332  4479  4957 I chatty  : uid=10089(u0_a89) Thread-19 identical 8 lines
+12-05 14:36:48.335  4479  4957 D TelephonyManager: getCellLocation : Caller (PID / UID / TID): 4479 / 10089 / 4957
+12-05 14:36:48.332  4479  4957 I chatty  : uid=10089(u0_a89) Thread-19 identical 8 lines
+12-05 14:36:48.335  4479  4957 D TelephonyManager: getCellLocation : Caller (PID / UID / TID): 4479 / 10089 / 4957
+12-05 14:36:50.461  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:36:50.461  4479  4965 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+12-05 14:36:50.461  4479  4965 I System.out: 
